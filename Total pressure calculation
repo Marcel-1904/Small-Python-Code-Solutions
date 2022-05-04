@@ -1,0 +1,7 @@
+def solution(molar_mass1, molar_mass2, given_mass1, given_mass2, volume, temp) :
+    temp_kelvin = 273.15 + temp
+    total1 = (given_mass1 / molar_mass1)
+    total2 = (given_mass2 / molar_mass2)
+    top_total = (total1 + total2) * temp_kelvin * 0.082
+    total = (top_total / volume)
+    return total
