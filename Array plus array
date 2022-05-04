@@ -1,0 +1,10 @@
+def array_plus_array(arr1,arr2):
+    total = 0
+    sum1 = arr1
+    sum2 = arr2
+    
+    sum1 = sum(sum1)
+    sum2 = sum(sum2)
+    
+    total = sum1 + sum2
+    return total
