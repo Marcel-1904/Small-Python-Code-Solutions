@@ -1,0 +1,3 @@
+#In this kata on codewars you were asked to multiply two values completing the multiply function. 
+def multiply(a, b):
+    return(a * b)
