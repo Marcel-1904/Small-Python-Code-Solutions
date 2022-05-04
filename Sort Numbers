@@ -1,0 +1,8 @@
+def solution(nums):
+    if nums != [] and nums != None:
+        nums.sort()
+        return nums
+    elif nums == []:
+        return []
+    else:
+        return []
